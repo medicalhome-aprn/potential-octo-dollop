@@ -1,0 +1,417 @@
+[2020-10-29 07:14:23Z INFO AgentProcess] Agent package linux-x64.
+[2020-10-29 07:14:23Z INFO AgentProcess] Running on Linux (X64).
+[2020-10-29 07:14:23Z INFO AgentProcess] RuntimeInformation: Linux 5.4.58-07649-ge120df5deade #1 SMP PREEMPT Wed Aug 26 04:56:33 PDT 2020.
+[2020-10-29 07:14:23Z INFO AgentProcess] Version: 2.175.2
+[2020-10-29 07:14:23Z INFO AgentProcess] Commit: 5c4925cfba4e3b4819f4d5be070058a2d667c376
+[2020-10-29 07:14:23Z INFO AgentProcess] Culture: en-US
+[2020-10-29 07:14:23Z INFO AgentProcess] UI Culture: en-US
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO AgentProcess] Validating directory permissions for: '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": true,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "Agent": "penguin",
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnvironmentVMResource": true,
+  "EnvironmentName": "Docusign",
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": "Integrated MedHome",
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": true,
+  "RunOnce": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": "https://dev.azure.com/medhometeam/",
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": "_work",
+  "Auth": "PAT",
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": "***",
+  "Unattended": false,
+  "UserName": null,
+  "Help": false,
+  "Version": false
+}
+[2020-10-29 07:14:23Z INFO AgentProcess] Arguments parsed
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO HostContext] Well known config file 'Proxy': '/home/shannonmae/azagent/.proxy'
+[2020-10-29 07:14:23Z INFO VstsAgentWebProxy] No proxy setting found.
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO HostContext] Well known config file 'Certificates': '/home/shannonmae/azagent/.certificates'
+[2020-10-29 07:14:23Z INFO AgentCertificateManager] No certificate setting found.
+[2020-10-29 07:14:23Z INFO Agent] ExecuteCommand
+[2020-10-29 07:14:23Z INFO ConfigurationStore] currentAssemblyLocation: /home/shannonmae/azagent/bin/Agent.Listener.dll
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO ConfigurationStore] binPath: /home/shannonmae/azagent/bin
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO ConfigurationStore] RootFolder: /home/shannonmae/azagent
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO HostContext] Well known config file 'Agent': '/home/shannonmae/azagent/.agent'
+[2020-10-29 07:14:23Z INFO ConfigurationStore] ConfigFilePath: /home/shannonmae/azagent/.agent
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO HostContext] Well known config file 'Credentials': '/home/shannonmae/azagent/.credentials'
+[2020-10-29 07:14:23Z INFO ConfigurationStore] CredFilePath: /home/shannonmae/azagent/.credentials
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO HostContext] Well known config file 'Service': '/home/shannonmae/azagent/.service'
+[2020-10-29 07:14:23Z INFO ConfigurationStore] ServiceConfigFilePath: /home/shannonmae/azagent/.service
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO HostContext] Well known config file 'Autologon': '/home/shannonmae/azagent/.autologon'
+[2020-10-29 07:14:23Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/shannonmae/azagent/.autologon
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO HostContext] Well known config file 'Options': '/home/shannonmae/azagent/.options'
+[2020-10-29 07:14:23Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/shannonmae/azagent/.options
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO HostContext] Well known config file 'SetupInfo': '/home/shannonmae/azagent/.setup_info'
+[2020-10-29 07:14:23Z INFO ConfigurationStore] SetupInfoFilePath: /home/shannonmae/azagent/.setup_info
+[2020-10-29 07:14:23Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v2.175.2             |_|          (commit 5c4925c)
+
+[2020-10-29 07:14:23Z INFO ConfigurationManager] ConfigureAsync
+[2020-10-29 07:14:23Z INFO ConfigurationStore] IsConfigured()
+[2020-10-29 07:14:23Z INFO ConfigurationStore] IsConfigured: False
+[2020-10-29 07:14:23Z INFO ConfigurationManager] Is configured: False
+[2020-10-29 07:14:23Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2020-10-29 07:14:23Z INFO Terminal] WRITE LINE: 
+[2020-10-29 07:14:23Z INFO Terminal] WRITE LINE: >> End User License Agreements:
+[2020-10-29 07:14:23Z INFO Terminal] WRITE LINE: 
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:23Z INFO HostContext] Well known directory 'Externals': '/home/shannonmae/azagent/externals'
+[2020-10-29 07:14:23Z INFO Terminal] WRITE LINE: Building sources from a TFVC repository requires accepting the Team Explorer Everywhere End User License Agreement. This step is not required for building sources from Git repositories.
+
+A copy of the Team Explorer Everywhere license agreement can be found at:
+  /home/shannonmae/azagent/externals/tee/license.html
+[2020-10-29 07:14:23Z INFO Terminal] WRITE LINE: 
+[2020-10-29 07:14:23Z INFO CommandSettings] Flag 'acceptteeeula': 'True'
+[2020-10-29 07:14:23Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2020-10-29 07:14:23Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2020-10-29 07:14:23Z INFO CommandSettings] Flag 'environment': 'True'
+[2020-10-29 07:14:23Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2020-10-29 07:14:23Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2020-10-29 07:14:23Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2020-10-29 07:14:23Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2020-10-29 07:14:23Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2020-10-29 07:14:23Z INFO Terminal] WRITE LINE: 
+[2020-10-29 07:14:23Z INFO Terminal] WRITE LINE: >> Connect:
+[2020-10-29 07:14:23Z INFO Terminal] WRITE LINE: 
+[2020-10-29 07:14:23Z INFO CommandSettings] Arg 'url': 'https://dev.azure.com/medhometeam/'
+[2020-10-29 07:14:23Z INFO EnvironmentVMResourceConfigProvider] url - https://dev.azure.com/medhometeam/
+[2020-10-29 07:14:23Z INFO ConfigurationManager] GetCredentialProvider
+[2020-10-29 07:14:23Z INFO CommandSettings] Arg 'auth': 'PAT'
+[2020-10-29 07:14:23Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2020-10-29 07:14:23Z INFO CredentialManager] GetCredentialProvider
+[2020-10-29 07:14:23Z INFO CredentialManager] Creating type PAT
+[2020-10-29 07:14:23Z INFO CredentialManager] Creating credential type: PAT
+[2020-10-29 07:14:23Z INFO PersonalAccessToken] EnsureCredential
+[2020-10-29 07:14:23Z INFO CommandSettings] Arg 'token': '***'
+[2020-10-29 07:14:23Z INFO PersonalAccessToken] GetVssCredentials
+[2020-10-29 07:14:23Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2020-10-29 07:14:23Z INFO PersonalAccessToken] cred created
+[2020-10-29 07:14:23Z INFO ConfigurationManager] cred retrieved
+[2020-10-29 07:14:24Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-29 07:14:25Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-29 07:14:25Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-29 07:14:25Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-29 07:14:25Z INFO ConfigurationManager] Server deployment type: Hosted
+[2020-10-29 07:14:25Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2020-10-29 07:14:25Z INFO EnvironmentVMResourceConfigProvider] Test connection with environment
+[2020-10-29 07:14:25Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-29 07:14:26Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-29 07:14:26Z INFO EnvironmentVMResourceConfigProvider] Connection complete for environment
+[2020-10-29 07:14:26Z INFO ConfigurationManager] Test Connection complete.
+[2020-10-29 07:14:26Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:26Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:26Z INFO HostContext] Well known config file 'RSACredentials': '/home/shannonmae/azagent/.credentials_rsaparams'
+[2020-10-29 07:14:26Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2020-10-29 07:14:26Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-10-29 07:14:26Z INFO RSAFileKeyManager] Which: 'chmod'
+[2020-10-29 07:14:26Z INFO RSAFileKeyManager] Location: '{matches.First()}'
+[2020-10-29 07:14:26Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:26Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper] Starting process:
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper]   Arguments: '600 /home/shannonmae/azagent/.credentials_rsaparams'
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper]   Working directory: '/home/shannonmae/azagent'
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper] Failed to update oom_score_adj for PID: 1510.
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper] Exited process 1510 with exit code 0
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper] System.UnauthorizedAccessException: Access to the path '/proc/1510/oom_score_adj' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Microsoft.VisualStudio.Services.Agent.Util.ProcessInvoker.WriteProcessOomScoreAdj(Int32 processId, Int32 oomScoreAdj)
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper] Process started with process id 1510, waiting for process exit.
+[2020-10-29 07:14:26Z INFO ProcessInvokerWrapper] Finished process 1510 with exit code 0, and elapsed time 00:00:00.0435751.
+[2020-10-29 07:14:26Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-10-29 07:14:26Z INFO Terminal] WRITE LINE: 
+[2020-10-29 07:14:26Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2020-10-29 07:14:26Z INFO Terminal] WRITE LINE: 
+[2020-10-29 07:14:26Z INFO CommandSettings] Arg 'projectname': 'Integrated MedHome'
+[2020-10-29 07:14:26Z INFO EnvironmentVMResourceConfigProvider] vm resource will be configured against the environment 'Docusign'
+[2020-10-29 07:14:26Z INFO EnvironmentVMResourceConfigProvider] Found environment Docusign with id 2
+[2020-10-29 07:14:26Z INFO EnvironmentVMResourceConfigProvider] vm resource configuration: environment id: '2', project name: '', project id: 'b4464d1e-01c6-4d0d-a12b-b774aa4137dd'
+[2020-10-29 07:14:26Z INFO CommandSettings] Arg 'agent': 'penguin'
+[2020-10-29 07:14:26Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2020-10-29 07:14:26Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2020-10-29 07:14:26Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-10-29 07:14:26Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-10-29 07:14:26Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-10-29 07:14:26Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding '_': './bin/Agent.Listener'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'BROWSER': '/usr/bin/garcon-url-handler'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'DISPLAY': ':0'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'DISPLAY_LOW_DENSITY': ':1'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/shannonmae'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'INVOCATION_ID': '3acd9d02c7164e23a6562b43b473f213'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'JOURNAL_STREAM': '8:5416'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'LD_ARGV0': '/opt/google/cros-containers/bin/vshd'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'shannonmae'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Skipping: 'LS_COLORS'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'MANAGERPID': '101'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'NCURSES_NO_UTF8_ACS': '1'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/home/shannonmae/azagent'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/home/shannonmae/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/shannonmae/azagent'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'QT_ACCESSIBILITY': '1'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'QT_AUTO_SCREEN_SCALE_FACTOR': '1'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'QT_QPA_PLATFORMTHEME': 'gtk2'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'SOMMELIER_DRM_DEVICE': '/dev/dri/renderD128'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'SOMMELIER_GLAMOR': '1'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'SOMMELIER_VERSION': '0.20'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'shannonmae'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'WAYLAND_DISPLAY': 'wayland-0'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'WAYLAND_DISPLAY_LOW_DENSITY': 'wayland-1'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'XCURSOR_SIZE': '30'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'XCURSOR_SIZE_LOW_DENSITY': '15'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'XCURSOR_THEME': 'Adwaita'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_CONFIG_HOME': '/home/shannonmae/.config'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_DATA_DIRS': '/home/shannonmae/.local/share:/home/shannonmae/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'
+[2020-10-29 07:14:26Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_RUNTIME_DIR': '/run/user/1000'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'android'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Checking file: '/home/shannonmae/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'ant'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'clang'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'curl'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'docker'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'git'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'java'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'javac'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'make'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'node'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'npm'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'python'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'python3'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Adding 'python3': '/usr/bin/python3'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'sh'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Adding 'sh': '/bin/sh'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'svn'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'rake'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'svn'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'generator'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2020-10-29 07:14:26Z INFO CapabilitiesBuilder] Not found.
+[2020-10-29 07:14:27Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:27Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'penguin'
+[2020-10-29 07:14:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2020-10-29 07:14:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2020-10-29 07:14:27Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2020-10-29 07:14:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.175.2'
+[2020-10-29 07:14:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'penguin'
+[2020-10-29 07:14:27Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:27Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:27Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/shannonmae/azagent'
+[2020-10-29 07:14:27Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2020-10-29 07:14:27Z INFO CommandSettings] Flag 'addvirtualmachineresourcetags': 'False'
+[2020-10-29 07:14:27Z INFO CommandSettings] Flag 'addvirtualmachineresourcetags': 'False'
+[2020-10-29 07:14:27Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-29 07:14:27Z INFO PromptManager] ReadValue
+[2020-10-29 07:14:27Z INFO Terminal] WRITE: Enter Environment Virtual Machine resource tags? (Y/N) (press enter for N) > 
+[2020-10-29 07:14:27Z INFO Terminal] READ LINE
+[2020-10-29 07:14:34Z INFO Terminal] Read value: 'y'
+[2020-10-29 07:14:34Z INFO CommandSettings] Arg 'virtualmachineresourcetags': ''
+[2020-10-29 07:14:34Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-29 07:14:34Z INFO PromptManager] ReadValue
+[2020-10-29 07:14:34Z INFO Terminal] WRITE: Enter Comma separated list of tags (e.g web, db) > 
+[2020-10-29 07:14:34Z INFO Terminal] READ LINE
+[2020-10-29 07:14:56Z INFO Terminal] Read value: 'webintegration'
+[2020-10-29 07:14:56Z INFO EnvironmentVMResourceConfigProvider] Given tags - 'webintegration' will be processed and added to environment vm resource
+[2020-10-29 07:14:57Z INFO EnvironmentVMResourceConfigProvider] Environment virtual machine resource with name: 'penguin', id: '1' has been added successfully.
+[2020-10-29 07:14:58Z INFO EnvironmentVMResourceConfigProvider] environment pool id: '11'
+[2020-10-29 07:14:58Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2020-10-29 07:14:58Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/medhometeam/'.
+[2020-10-29 07:14:58Z INFO ConfigurationStore] Saving OAuth credential @ /home/shannonmae/azagent/.credentials
+[2020-10-29 07:14:58Z INFO ConfigurationStore] Credentials Saved.
+[2020-10-29 07:14:58Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2020-10-29 07:14:58Z INFO ConfigurationStore] HasCredentials()
+[2020-10-29 07:14:58Z INFO ConfigurationStore] stored True
+[2020-10-29 07:14:58Z INFO CredentialManager] GetCredentialProvider
+[2020-10-29 07:14:58Z INFO CredentialManager] Creating type OAuth
+[2020-10-29 07:14:58Z INFO CredentialManager] Creating credential type: OAuth
+[2020-10-29 07:14:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-10-29 07:14:58Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-10-29 07:14:58Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-29 07:14:58Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-10-29 07:14:58Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-29 07:14:58Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-10-29 07:14:58Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-10-29 07:14:58Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-29 07:14:58Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-29 07:14:58Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-10-29 07:14:58Z INFO CommandSettings] Arg 'work': '_work'
+[2020-10-29 07:14:58Z INFO CommandSettings] Flag 'disableloguploads': 'False'
+[2020-10-29 07:14:58Z INFO ConfigurationStore] Saving agent settings.
+[2020-10-29 07:14:58Z INFO ConfigurationStore] Settings Saved.
+[2020-10-29 07:14:58Z INFO Terminal] WRITE LINE: 2020-10-29 07:14:58Z: Settings Saved.
+[2020-10-29 07:14:58Z INFO SystemDControlManager] Service name 'vsts.agent.medhometeam..penguin.service' display name 'Azure Pipelines Agent (medhometeam..penguin)' will be used for service configuration.
+[2020-10-29 07:14:58Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:58Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:58Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:58Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-10-29 07:14:58Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-10-29 07:14:58Z INFO UnixUtil] Which: 'chmod'
+[2020-10-29 07:14:58Z INFO UnixUtil] Location: '{matches.First()}'
+[2020-10-29 07:14:58Z INFO UnixUtil] Running /bin/chmod 755 "/home/shannonmae/azagent/svc.sh"
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper] Starting process:
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper]   Arguments: '755 "/home/shannonmae/azagent/svc.sh"'
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper]   Working directory: '/home/shannonmae/azagent'
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper] Failed to update oom_score_adj for PID: 1530.
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper] System.UnauthorizedAccessException: Access to the path '/proc/1530/oom_score_adj' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at Microsoft.VisualStudio.Services.Agent.Util.ProcessInvoker.WriteProcessOomScoreAdj(Int32 processId, Int32 oomScoreAdj)
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper] Process started with process id 1530, waiting for process exit.
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper] Exited process 1530 with exit code 0
+[2020-10-29 07:14:58Z INFO ProcessInvokerWrapper] Finished process 1530 with exit code 0, and elapsed time 00:00:00.0069834.

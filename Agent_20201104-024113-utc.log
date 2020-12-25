@@ -1,0 +1,442 @@
+[2020-11-04 02:41:13Z INFO AgentProcess] Agent package linux-x64.
+[2020-11-04 02:41:13Z INFO AgentProcess] Running on Linux (X64).
+[2020-11-04 02:41:13Z INFO AgentProcess] RuntimeInformation: Linux 5.4.58-07649-ge120df5deade #1 SMP PREEMPT Wed Aug 26 04:56:33 PDT 2020.
+[2020-11-04 02:41:13Z INFO AgentProcess] Version: 2.175.2
+[2020-11-04 02:41:13Z INFO AgentProcess] Commit: 5c4925cfba4e3b4819f4d5be070058a2d667c376
+[2020-11-04 02:41:13Z INFO AgentProcess] Culture: en-US
+[2020-11-04 02:41:13Z INFO AgentProcess] UI Culture: en-US
+[2020-11-04 02:41:13Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:13Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:13Z INFO AgentProcess] Validating directory permissions for: '/home/shannonmae/azagent'
+[2020-11-04 02:41:13Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:13Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO CommandSettings] Run {
+  "Commit": false,
+  "Diagnostics": false,
+  "RunOnce": false,
+  "StartupType": "service",
+  "Help": false,
+  "Version": false
+}
+[2020-11-04 02:41:14Z INFO AgentProcess] Arguments parsed
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO HostContext] Well known config file 'Proxy': '/home/shannonmae/azagent/.proxy'
+[2020-11-04 02:41:14Z INFO VstsAgentWebProxy] No proxy setting found.
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO HostContext] Well known config file 'Certificates': '/home/shannonmae/azagent/.certificates'
+[2020-11-04 02:41:14Z INFO AgentCertificateManager] No certificate setting found.
+[2020-11-04 02:41:14Z INFO Agent] ExecuteCommand
+[2020-11-04 02:41:14Z INFO ConfigurationStore] currentAssemblyLocation: /home/shannonmae/azagent/bin/Agent.Listener.dll
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:14Z INFO ConfigurationStore] binPath: /home/shannonmae/azagent/bin
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO ConfigurationStore] RootFolder: /home/shannonmae/azagent
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO HostContext] Well known config file 'Agent': '/home/shannonmae/azagent/.agent'
+[2020-11-04 02:41:14Z INFO ConfigurationStore] ConfigFilePath: /home/shannonmae/azagent/.agent
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO HostContext] Well known config file 'Credentials': '/home/shannonmae/azagent/.credentials'
+[2020-11-04 02:41:14Z INFO ConfigurationStore] CredFilePath: /home/shannonmae/azagent/.credentials
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO HostContext] Well known config file 'Service': '/home/shannonmae/azagent/.service'
+[2020-11-04 02:41:14Z INFO ConfigurationStore] ServiceConfigFilePath: /home/shannonmae/azagent/.service
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO HostContext] Well known config file 'Autologon': '/home/shannonmae/azagent/.autologon'
+[2020-11-04 02:41:14Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/shannonmae/azagent/.autologon
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO HostContext] Well known config file 'Options': '/home/shannonmae/azagent/.options'
+[2020-11-04 02:41:14Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/shannonmae/azagent/.options
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:14Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO HostContext] Well known config file 'SetupInfo': '/home/shannonmae/azagent/.setup_info'
+[2020-11-04 02:41:14Z INFO ConfigurationStore] SetupInfoFilePath: /home/shannonmae/azagent/.setup_info
+[2020-11-04 02:41:14Z INFO ConfigurationManager] LoadSettings
+[2020-11-04 02:41:14Z INFO ConfigurationStore] IsConfigured()
+[2020-11-04 02:41:14Z INFO ConfigurationStore] IsConfigured: True
+[2020-11-04 02:41:14Z INFO ConfigurationManager] Is configured: True
+[2020-11-04 02:41:14Z INFO ConfigurationStore] Read setting file: 273 chars
+[2020-11-04 02:41:14Z INFO ConfigurationManager] Settings Loaded
+[2020-11-04 02:41:14Z INFO ConfigurationStore] IsServiceConfigured()
+[2020-11-04 02:41:14Z INFO ConfigurationStore] IsServiceConfigured: True
+[2020-11-04 02:41:14Z INFO ConfigurationStore] IsConfigured()
+[2020-11-04 02:41:14Z INFO ConfigurationStore] IsConfigured: True
+[2020-11-04 02:41:14Z INFO ConfigurationManager] Is configured: True
+[2020-11-04 02:41:14Z INFO Agent] Set agent startup type - Service
+[2020-11-04 02:41:14Z INFO CommandSettings] Flag 'once': 'False'
+[2020-11-04 02:41:14Z INFO CommandSettings] Flag 'once': 'False'
+[2020-11-04 02:41:14Z INFO Agent] RunAsync
+[2020-11-04 02:41:14Z INFO ConfigurationManager] LoadSettings
+[2020-11-04 02:41:14Z INFO ConfigurationStore] IsConfigured()
+[2020-11-04 02:41:14Z INFO ConfigurationStore] IsConfigured: True
+[2020-11-04 02:41:14Z INFO ConfigurationManager] Is configured: True
+[2020-11-04 02:41:14Z INFO ConfigurationManager] Settings Loaded
+[2020-11-04 02:41:14Z INFO MessageListener] {
+  "AcceptTeeEula": true,
+  "AgentId": 89,
+  "AgentName": "penguin",
+  "PoolId": 11,
+  "ServerUrl": "https://dev.azure.com/medhometeam/",
+  "WorkFolder": "_work",
+  "ProjectId": "b4464d1e-01c6-4d0d-a12b-b774aa4137dd",
+  "EnvironmentId": 2,
+  "EnvironmentVMResourceId": 1
+}
+[2020-11-04 02:41:14Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2020-11-04 02:41:14Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2020-11-04 02:41:14Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-11-04 02:41:14Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-11-04 02:41:14Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-11-04 02:41:14Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Adding '_': './externals/node/bin/node'
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/shannonmae'
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Adding 'INVOCATION_ID': '6fe39dc44622439eb636f3e051cb1ed3'
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Adding 'JOURNAL_STREAM': '8:2951'
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'shannonmae'
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/home/shannonmae/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games'
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/shannonmae/azagent'
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2020-11-04 02:41:14Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'shannonmae'
+[2020-11-04 02:41:14Z INFO CapabilitiesBuilder] Which: 'android'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Checking file: '/home/shannonmae/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'ant'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'clang'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'curl'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'docker'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Adding 'dotnet': '/usr/bin/dotnet'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'git'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'java'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'javac'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'make'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'node'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'npm'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'python'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'python3'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Adding 'python3': '/usr/bin/python3'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'sh'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Adding 'sh': '/bin/sh'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'svn'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'rake'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'svn'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'generator'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2020-11-04 02:41:15Z INFO CapabilitiesBuilder] Not found.
+[2020-11-04 02:41:15Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:15Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'penguin'
+[2020-11-04 02:41:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2020-11-04 02:41:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2020-11-04 02:41:15Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'False'
+[2020-11-04 02:41:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '2.175.2'
+[2020-11-04 02:41:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'penguin'
+[2020-11-04 02:41:15Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:15Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:15Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/shannonmae/azagent'
+[2020-11-04 02:41:15Z INFO MessageListener] Loading Credentials
+[2020-11-04 02:41:15Z INFO ConfigurationStore] HasCredentials()
+[2020-11-04 02:41:15Z INFO ConfigurationStore] stored True
+[2020-11-04 02:41:15Z INFO CredentialManager] GetCredentialProvider
+[2020-11-04 02:41:15Z INFO CredentialManager] Creating type OAuth
+[2020-11-04 02:41:15Z INFO CredentialManager] Creating credential type: OAuth
+[2020-11-04 02:41:15Z INFO HostContext] Well known directory 'Bin': '/home/shannonmae/azagent/bin'
+[2020-11-04 02:41:15Z INFO HostContext] Well known directory 'Root': '/home/shannonmae/azagent'
+[2020-11-04 02:41:15Z INFO HostContext] Well known config file 'RSACredentials': '/home/shannonmae/azagent/.credentials_rsaparams'
+[2020-11-04 02:41:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-11-04 02:41:15Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2020-11-04 02:41:15Z INFO MessageListener] Attempt to create session.
+[2020-11-04 02:41:15Z INFO MessageListener] Connecting to the Agent Server...
+[2020-11-04 02:41:15Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-11-04 02:41:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-11-04 02:41:15Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-11-04 02:41:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-11-04 02:41:15Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2020-11-04 02:41:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2020-11-04 02:41:16Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-11-04 02:41:16Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-11-04 02:41:16Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2020-11-04 02:41:17Z INFO MessageListener] VssConnection created
+[2020-11-04 02:41:17Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/78540cf3-b2e0-49e0-b2de-de0b4910b4ed, Basic realm="https://tfsprodcus5.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 11d72f88-61ae-4a95-ac6d-0f5ce636bf6e
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: e9b14e5b-4aa4-4006-8c13-aa067ea818bc
+X-TFS-Session: d76bb4f2-4f23-43a4-b3a7-d96bd8ee4788
+X-VSS-E2EID: 687df4f7-705e-48d2-b5d2-d2b4d6826445
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus5.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/medhometeam/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/medhometeam/
+X-VSS-ResourceTenant: 78540cf3-b2e0-49e0-b2de-de0b4910b4ed
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmedhometeam%2F_apis%2Fdistributedtask%2Fpools%2F11%2Fsessions&redirect=1&hid=64afc2a4-19ff-4ac7-9664-2b9476e54bfe&context=eyJodCI6MiwiaGlkIjoiNTVlNzBiYjAtYmI0YS00YTcyLWFkMzktMzc3ZmYwY2YzM2RkIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:8c62fdb3-4bc4-4e8a-99f1-6dee6bc4d8e3
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: EEB37803CA6B4C5DB22529935616D856 Ref B: MIAEDGE1406 Ref C: 2020-11-04T02:41:17Z
+Date: Wed, 04 Nov 2020 02:41:17 GMT
+
+[2020-11-04 02:41:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-11-04 02:41:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-11-04 02:41:18Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2020-11-04 02:41:18Z INFO MessageListener] Session created.
+[2020-11-04 02:41:18Z INFO Terminal] WRITE LINE: 2020-11-04 02:41:18Z: Listening for Jobs
+[2020-11-04 02:41:18Z INFO JobDispatcher] Set agent/worker IPC timeout to 30 seconds.
+[2020-11-04 03:11:24Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 03:36:29Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/78540cf3-b2e0-49e0-b2de-de0b4910b4ed, Basic realm="https://tfsprodcus5.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 912e4a21-17ee-4830-beef-3b08a5ea69f0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 94fe109f-427f-4907-9657-b618ab8c63d6
+X-TFS-Session: d76bb4f2-4f23-43a4-b3a7-d96bd8ee4788
+X-VSS-E2EID: 66823c76-886c-4518-b716-3b45f4af6895
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus5.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/medhometeam/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/medhometeam/
+X-VSS-ResourceTenant: 78540cf3-b2e0-49e0-b2de-de0b4910b4ed
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmedhometeam%2F_apis%2Fdistributedtask%2Fpools%2F11%2Fmessages%3FsessionId%3Da15fd9ba-a749-4142-8022-0fb4baff2ee6&redirect=1&hid=64afc2a4-19ff-4ac7-9664-2b9476e54bfe&context=eyJodCI6MiwiaGlkIjoiNTVlNzBiYjAtYmI0YS00YTcyLWFkMzktMzc3ZmYwY2YzM2RkIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:8c62fdb3-4bc4-4e8a-99f1-6dee6bc4d8e3
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 3192E19B0EA446D781511A28DA028358 Ref B: MIAEDGE1406 Ref C: 2020-11-04T03:36:30Z
+Date: Wed, 04 Nov 2020 03:36:29 GMT
+
+[2020-11-04 03:36:29Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-11-04 03:36:30Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2020-11-04 03:41:31Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 04:11:39Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 04:31:44Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/78540cf3-b2e0-49e0-b2de-de0b4910b4ed, Basic realm="https://tfsprodcus5.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 9bef17d2-520c-4255-8df8-d1b5b8c930c5
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: c3604b1b-0499-4718-9482-cc8cf8be005c
+X-TFS-Session: d76bb4f2-4f23-43a4-b3a7-d96bd8ee4788
+X-VSS-E2EID: e9eff66f-eabc-468c-aa70-f44fab3424f8
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus5.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/medhometeam/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/medhometeam/
+X-VSS-ResourceTenant: 78540cf3-b2e0-49e0-b2de-de0b4910b4ed
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmedhometeam%2F_apis%2Fdistributedtask%2Fpools%2F11%2Fmessages%3FsessionId%3Da15fd9ba-a749-4142-8022-0fb4baff2ee6&redirect=1&hid=64afc2a4-19ff-4ac7-9664-2b9476e54bfe&context=eyJodCI6MiwiaGlkIjoiNTVlNzBiYjAtYmI0YS00YTcyLWFkMzktMzc3ZmYwY2YzM2RkIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:8c62fdb3-4bc4-4e8a-99f1-6dee6bc4d8e3
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 61E03913B0B84357956F04CD5106DD8C Ref B: MIAEDGE1406 Ref C: 2020-11-04T04:31:45Z
+Date: Wed, 04 Nov 2020 04:31:44 GMT
+
+[2020-11-04 04:31:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-11-04 04:31:45Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2020-11-04 04:41:47Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 05:11:53Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 05:26:57Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/78540cf3-b2e0-49e0-b2de-de0b4910b4ed, Basic realm="https://tfsprodcus5.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 443ae32b-3858-4e97-b45d-89a1d4b6c8ad
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: aa152d54-10c5-4334-9bc8-f4e358dc6f95
+X-TFS-Session: d76bb4f2-4f23-43a4-b3a7-d96bd8ee4788
+X-VSS-E2EID: 42c26544-4799-40d3-8e8f-93d47a1e1a85
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus5.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/medhometeam/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/medhometeam/
+X-VSS-ResourceTenant: 78540cf3-b2e0-49e0-b2de-de0b4910b4ed
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmedhometeam%2F_apis%2Fdistributedtask%2Fpools%2F11%2Fmessages%3FsessionId%3Da15fd9ba-a749-4142-8022-0fb4baff2ee6&redirect=1&hid=64afc2a4-19ff-4ac7-9664-2b9476e54bfe&context=eyJodCI6MiwiaGlkIjoiNTVlNzBiYjAtYmI0YS00YTcyLWFkMzktMzc3ZmYwY2YzM2RkIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:8c62fdb3-4bc4-4e8a-99f1-6dee6bc4d8e3
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 22548F8D1B9143F09ACB13EB1A1DB9B2 Ref B: MIAEDGE1406 Ref C: 2020-11-04T05:26:57Z
+Date: Wed, 04 Nov 2020 05:26:56 GMT
+
+[2020-11-04 05:26:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-11-04 05:26:58Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2020-11-04 05:42:01Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 06:12:07Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 06:22:10Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/78540cf3-b2e0-49e0-b2de-de0b4910b4ed, Basic realm="https://tfsprodcus5.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 56373971-85f5-480c-9e1f-419984047063
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 33a95527-c6cf-4f1b-86de-37bb451b1c34
+X-TFS-Session: d76bb4f2-4f23-43a4-b3a7-d96bd8ee4788
+X-VSS-E2EID: 9a81455b-f2a5-4a2e-8166-64ebb0eb3aa4
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus5.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/medhometeam/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/medhometeam/
+X-VSS-ResourceTenant: 78540cf3-b2e0-49e0-b2de-de0b4910b4ed
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmedhometeam%2F_apis%2Fdistributedtask%2Fpools%2F11%2Fmessages%3FsessionId%3Da15fd9ba-a749-4142-8022-0fb4baff2ee6&redirect=1&hid=64afc2a4-19ff-4ac7-9664-2b9476e54bfe&context=eyJodCI6MiwiaGlkIjoiNTVlNzBiYjAtYmI0YS00YTcyLWFkMzktMzc3ZmYwY2YzM2RkIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:8c62fdb3-4bc4-4e8a-99f1-6dee6bc4d8e3
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: DEA1D0262ABA475E8AE5203A2305FDD4 Ref B: MIAEDGE1406 Ref C: 2020-11-04T06:22:11Z
+Date: Wed, 04 Nov 2020 06:22:10 GMT
+
+[2020-11-04 06:22:10Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-11-04 06:22:11Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2020-11-04 06:42:15Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 07:12:20Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 07:17:21Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/78540cf3-b2e0-49e0-b2de-de0b4910b4ed, Basic realm="https://tfsprodcus5.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 56373971-85f5-480c-9e1f-419984047063
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 33ad2c66-c6cf-4f1b-86de-37bb451b1c34
+X-TFS-Session: d76bb4f2-4f23-43a4-b3a7-d96bd8ee4788
+X-VSS-E2EID: b8d60e3d-facb-4d0e-be92-3ffe276c1af3
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus5.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/medhometeam/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/medhometeam/
+X-VSS-ResourceTenant: 78540cf3-b2e0-49e0-b2de-de0b4910b4ed
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmedhometeam%2F_apis%2Fdistributedtask%2Fpools%2F11%2Fmessages%3FsessionId%3Da15fd9ba-a749-4142-8022-0fb4baff2ee6&redirect=1&hid=64afc2a4-19ff-4ac7-9664-2b9476e54bfe&context=eyJodCI6MiwiaGlkIjoiNTVlNzBiYjAtYmI0YS00YTcyLWFkMzktMzc3ZmYwY2YzM2RkIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:8c62fdb3-4bc4-4e8a-99f1-6dee6bc4d8e3
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 0E75C530F48B4E9A9E3D9D82BCE2C584 Ref B: MIAEDGE1406 Ref C: 2020-11-04T07:17:22Z
+Date: Wed, 04 Nov 2020 07:17:21 GMT
+
+[2020-11-04 07:17:21Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-11-04 07:17:22Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2020-11-04 07:42:27Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 08:12:33Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 08:12:33Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/78540cf3-b2e0-49e0-b2de-de0b4910b4ed, Basic realm="https://tfsprodcus5.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 56373971-85f5-480c-9e1f-419984047063
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 33a0e5bc-c6cf-4f1b-86de-37bb451b1c34
+X-TFS-Session: d76bb4f2-4f23-43a4-b3a7-d96bd8ee4788
+X-VSS-E2EID: 0ed02363-de93-4a66-9080-eb38ba1fe5b0
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus5.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/medhometeam/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/medhometeam/
+X-VSS-ResourceTenant: 78540cf3-b2e0-49e0-b2de-de0b4910b4ed
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmedhometeam%2F_apis%2Fdistributedtask%2Fpools%2F11%2Fmessages%3FsessionId%3Da15fd9ba-a749-4142-8022-0fb4baff2ee6&redirect=1&hid=64afc2a4-19ff-4ac7-9664-2b9476e54bfe&context=eyJodCI6MiwiaGlkIjoiNTVlNzBiYjAtYmI0YS00YTcyLWFkMzktMzc3ZmYwY2YzM2RkIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:8c62fdb3-4bc4-4e8a-99f1-6dee6bc4d8e3
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 617D502C6239409BB8423DA0E6D9B6B7 Ref B: MIAEDGE1406 Ref C: 2020-11-04T08:12:34Z
+Date: Wed, 04 Nov 2020 08:12:33 GMT
+
+[2020-11-04 08:12:33Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-11-04 08:12:34Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2020-11-04 08:42:40Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 09:07:45Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Bearer authorization_uri=https://login.microsoftonline.com/78540cf3-b2e0-49e0-b2de-de0b4910b4ed, Basic realm="https://tfsprodcus5.visualstudio.com/", TFS-Federated
+X-TFS-ProcessId: 56373971-85f5-480c-9e1f-419984047063
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 33a4fae8-c6cf-4f1b-86de-37bb451b1c34
+X-TFS-Session: d76bb4f2-4f23-43a4-b3a7-d96bd8ee4788
+X-VSS-E2EID: 9ead6481-fda3-49ce-a2da-54514114d5ae
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus5.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/medhometeam/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/medhometeam/
+X-VSS-ResourceTenant: 78540cf3-b2e0-49e0-b2de-de0b4910b4ed
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus3.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fmedhometeam%2F_apis%2Fdistributedtask%2Fpools%2F11%2Fmessages%3FsessionId%3Da15fd9ba-a749-4142-8022-0fb4baff2ee6&redirect=1&hid=64afc2a4-19ff-4ac7-9664-2b9476e54bfe&context=eyJodCI6MiwiaGlkIjoiNTVlNzBiYjAtYmI0YS00YTcyLWFkMzktMzc3ZmYwY2YzM2RkIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:8c62fdb3-4bc4-4e8a-99f1-6dee6bc4d8e3
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 901D20B1BFFB42119DFB9CFD9F8EDC5C Ref B: MIAEDGE1406 Ref C: 2020-11-04T09:07:45Z
+Date: Wed, 04 Nov 2020 09:07:45 GMT
+
+[2020-11-04 09:07:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/shannonmae/azagent/.credentials_rsaparams
+[2020-11-04 09:07:46Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2020-11-04 09:12:47Z INFO MessageListener] No message retrieved from session 'a15fd9ba-a749-4142-8022-0fb4baff2ee6' within last 30 minutes.
+[2020-11-04 09:42:33Z INFO HostContext] Agent will be shutdown for UserCancelled
+[2020-11-04 09:42:33Z WARN VisualStudioServices] GET request to https://dev.azure.com/medhometeam/_apis/distributedtask/pools/11/messages?sessionId=a15fd9ba-a749-4142-8022-0fb4baff2ee6 has been cancelled.
+[2020-11-04 09:42:33Z INFO MessageListener] Get next message has been cancelled.
+[2020-11-04 09:42:33Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2020-11-04 09:42:33Z INFO Terminal] WRITE LINE: Exiting...
+[2020-11-04 09:42:33Z INFO ConfigurationStore] IsServiceConfigured()
+[2020-11-04 09:42:33Z INFO ConfigurationStore] IsServiceConfigured: True
+[2020-11-04 09:42:33Z INFO Agent] Received Ctrl-C signal, stop agent.listener and agent.worker.
+[2020-11-04 09:42:33Z INFO HostContext] Agent will be shutdown for UserCancelled
+[2020-11-04 09:42:39Z WARN VisualStudioServices] Attempt 1 of DELETE request to https://dev.azure.com/medhometeam/_apis/distributedtask/pools/11/sessions/a15fd9ba-a749-4142-8022-0fb4baff2ee6 failed (Curl Error: CURLE_COULDNT_RESOLVE_HOST). The operation will be retried in 10.8685766 seconds.
